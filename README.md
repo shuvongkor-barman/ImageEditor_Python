@@ -3,7 +3,7 @@
 Install the requirement first before running the program
 --------------------------------
 # Requirement
-OpenCV-python
-Pillow
+1. OpenCV-python
+2. Pillow
 --------------------------------
 
