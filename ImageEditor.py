@@ -433,7 +433,7 @@ def reset_original_image():
 
 
 def about_info():
-    messagebox.showinfo("About Image Editor", "Image Editor \n Version 0.1 \n Made with Python and OpenCV \n Code Writen by Shuvongkor")
+    messagebox.showinfo("About Image Editor", "Image Editor \n Version 0.1 \n Made with Python, tkinter and OpenCV \n Code Writen by Shuvongkor")
 
 
 # Drop down menu design
@@ -512,15 +512,15 @@ separator_line2 = Label(root, text="_________________________________", font=('a
 format_label = Label(root, text="Convert or Save Format", font=('arial', 12, 'bold')).pack()
 format_selection.pack()
 
-button_save = HoverButton(root, text="Save Image", font=('arial', 15, 'bold'), bg='green', fg='white', width=15,
+button_save = HoverButton(root, text="Save Image", font=('arial', 13, 'bold'), bg='green', fg='white', width=15,
                           activebackground='#3061f2', command=save_image).pack()
 button_reset = HoverButton(root, text="Reset Image", font=('arial', 12, 'bold'), bg='#48869c', fg='white',
                            activebackground='#3061f2', command=reset_original_image).pack()
 
-button_about = HoverButton(root, text="About", font=('arial', 12, 'bold'), bg='#48869c', fg='white',
+button_about = HoverButton(root, text="About", font=('arial', 8, 'bold'), bg='#48869c', fg='white',
                            activebackground='#3061f2', command=about_info).pack()
 
-button_Exit = HoverButton(root, text="Exit", font=('arial', 18, 'bold'), bg='#b82623', fg='white',
+button_Exit = HoverButton(root, text="Exit", font=('arial', 15, 'bold'), bg='#b82623', fg='white',
                           width=screen_width, activebackground='#3061f2', command=exit).pack(side=BOTTOM)
 
 root.mainloop()
