@@ -4,7 +4,8 @@ Install the requirement first before running the program
 --------------------------------
 # Requirement
 1. Python
-2. OpenCV-python
+2. Tkinter
+3. OpenCV-python
 --------------------------------
-![](Screenshot/Image%20Editor%20Python.jpg)
+![](Screenshot/ImageEditor_Python.jpg)
 
